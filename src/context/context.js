@@ -25,7 +25,7 @@ export function DataProvider({ children }) {
     try {
       dispatch({ type: ACTION.CALL_API });
       let response = await axios.get(
-        "https://aws-plymer-be.onrender.com/repo",
+        "https://awspolymersearch-backend.onrender.com/repo",
         { params: selectTags }
       );
       dispatch({ type: ACTION.SUCCESS, payload: response.data });
