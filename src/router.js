@@ -14,7 +14,7 @@ export default function Router()
       <DismissHeader/>
       <Header/>
       {
-          loading?<p>loading...</p>:error?<p>oops sorry,something went wrong</p>:(
+          loading?<p>loading...</p>:error?<p>something went wrong</p>:(
       <div className="d-flex">
       <Sidebar/>
       <Switch>
