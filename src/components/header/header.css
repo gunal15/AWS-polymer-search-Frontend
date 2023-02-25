@@ -39,9 +39,23 @@
 }
 
 .polymer{
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255) !important;
-    border-radius: 20px;
+    border-radius: 0px; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    margin-left: 0.5rem;
+    padding: 10px 18px;
+    box-shadow: 0 12px 16px rgb(9 29 77 / 5%), 0 12px 36px rgb(12 46 126 / 10%);
+    height: 36px;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 500;
+    transition: opacity .25s;
 }
 .dropdown{
     margin: 0 10px;
