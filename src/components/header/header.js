@@ -29,7 +29,7 @@ export default function Header()
         <Navbar className="navbarContainer"  expand="lg">
                 <Navbar.Brand className="d-flex align-items-center ms-2">
                     <img src={aws}  alt="aws logo" className="d-inline-block align-top" />
-                    <h5 className="navTitle">Everything AWS</h5>
+                    <h5 className="navTitle" style={{fontWeight:'bold'}}>Everything  AWS</h5>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -85,7 +85,10 @@ export default function Header()
                                 </div>
                             </NavDropdown.Item>
                         </NavDropdown> */}
-                        <Nav.Link className="polymer" href="https://www.polymersearch.com/?utm_source=aws" target="_blank" ><h6 style={{color:'white'}}><svg data-v-8968df12="" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg" class=""><path data-v-8968df12="" fill-rule="evenodd" clip-rule="evenodd" d="M8.269 7.118a1.42 1.42 0 010-2.322 1.708 1.708 0 00-1.936-2.813 2.143 2.143 0 01-3.096-.799A1.71 1.71 0 000 1.946 1.707 1.707 0 002.667 3.36a2.143 2.143 0 013.096.798c.128.257.318.476.55.639.8.562.804 1.748.01 2.316a2.144 2.144 0 01-3.088-.802A1.707 1.707 0 10.731 8.47a1.42 1.42 0 010 2.323 1.707 1.707 0 102.685 1.4c0-.58-.288-1.091-.731-1.4a1.419 1.419 0 01-.01-2.315 2.143 2.143 0 013.088.802A1.71 1.71 0 009 8.52c0-.58-.288-1.092-.731-1.401z" fill="#fff"></path></svg>  Try Polymer</h6></Nav.Link>
+                        <Nav.Link className="polymer" href="https://www.polymersearch.com/?utm_source=aws" target="_blank" >
+                            <h6 style={{color:'white'}}><svg data-v-8968df12="" width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="">
+                                <path data-v-8968df12="" fill-rule="evenodd" clip-rule="evenodd" d="M8.269 7.118a1.42 1.42 0 010-2.322 1.708 1.708 0 00-1.936-2.813 2.143 2.143 0 01-3.096-.799A1.71 1.71 0 000 1.946 1.707 1.707 0 002.667 3.36a2.143 2.143 0 013.096.798c.128.257.318.476.55.639.8.562.804 1.748.01 2.316a2.144 2.144 0 01-3.088-.802A1.707 1.707 0 10.731 8.47a1.42 1.42 0 010 2.323 1.707 1.707 0 102.685 1.4c0-.58-.288-1.091-.731-1.4a1.419 1.419 0 01-.01-2.315 2.143 2.143 0 013.088.802A1.71 1.71 0 009 8.52c0-.58-.288-1.092-.731-1.401z" fill="#fff"></path>
+                                </svg>  Try Polymer</h6></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
         </Navbar>
