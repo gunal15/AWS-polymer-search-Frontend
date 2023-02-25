@@ -91,7 +91,7 @@ chart(value)
             <div>
                 <label ><p className="mr-3">select axis</p></label>
                 <select name="data" value={value} onChange={(event)=>{handleChange(event)}}  >
-                {/* <option value="language">Select</option> */}
+                <option value="language">Select</option>
                     <option value="language">Language</option>
                     <option value="topics">Topics</option>
                     <option value="license">License</option>
