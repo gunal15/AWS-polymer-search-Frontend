@@ -62,7 +62,7 @@ export default function Query()
         <Container className=" bg-muted d-flex flex-column align-items-center ">
             {/* <div className="mainHeader "><h4><b><FcSearch/>The Best Way to Browse Quality AWS GitHub Repositories<FcSearch/></b></h4></div>
             <div><p><AiFillThunderbolt style={{color:"yellow"}}/>Built with a spreadsheet + <a  href="https://www.polymersearch.com/?utm_source=built_with_polymer_aws" target="_blank" rel="noreferrer"   >Polymer Search</a>|<a href="https://app.polymersearch.com/auth/login" target="_blank" rel="noreferrer"> Create a search and data app in seconds with Polymer beta</a></p></div> */}
-            <p style={{textAlign:"center",fontFamily:'Consolas',fontWeight:"bolder",color:'black'}}>aws_browser.csv</p>
+            <p style={{textAlign:"center",fontFamily:'Consolas',fontWeight:"bolder",color:'black' ,fontSize:'800px', marginTop:'100px', marginBottom'100px'}}>aws_browser.csv</p>
             <div className="searchContainer">
                 <div>
                     <form>
