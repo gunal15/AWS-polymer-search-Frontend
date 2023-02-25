@@ -50,7 +50,7 @@ export default function Header()
                     }           
                     </div>
                     <div id="chartId">
-                    <Nav.Link   href="#"><NavLink to="/chart" className="navItem" activeClassName="setItem" onMouseEnter={()=>{showTip("c")}}  onMouseLeave={()=>{hideTip("c")}}>Visualize</NavLink></Nav.Link>
+                    {/* <Nav.Link   href="#"><NavLink to="/chart" className="navItem" activeClassName="setItem" onMouseEnter={()=>{showTip("c")}}  onMouseLeave={()=>{hideTip("c")}}>Visualize</NavLink></Nav.Link>
                     {
                         showC &&
                     
@@ -63,7 +63,7 @@ export default function Header()
                     </div> 
                     }
                     </div>                                 
-                    </Nav>
+                    </Nav> */}
                     <Nav>
                         <Nav.Link href="#"><h5 className="bulbIcon"><AiFillBulb/></h5></Nav.Link>
                         <Nav.Link href="#"><NavLink to="/query"><h5 className="reloadIcon"><AiOutlineReload/></h5></NavLink></Nav.Link>
