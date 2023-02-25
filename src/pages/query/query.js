@@ -83,8 +83,8 @@ export default function Query()
             </div>
         </div>
         <div className="countBar  ">
-                <div style={{textAlign:"right"}}>
-                     {filterData.length}<p> Results<p className="d-inline text-muted"> </p></p>
+                <div>
+                    <p><p className="d-inline text-muted" style={{alignContent:"end"}}> {filterData.length} Results</p></p>
                 </div>
         </div>
     
