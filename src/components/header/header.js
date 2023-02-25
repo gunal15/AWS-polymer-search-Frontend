@@ -61,9 +61,9 @@ export default function Header()
                             <p>Create detailed visual reports with a couple of clicks</p>
                         </div>
                     </div> 
-                    }
+                    } */}
                     </div>                                 
-                    </Nav> */}
+                    </Nav>
                     <Nav>
                         <Nav.Link href="#"><h5 className="bulbIcon"><AiFillBulb/></h5></Nav.Link>
                         <Nav.Link href="#"><NavLink to="/query"><h5 className="reloadIcon"><AiOutlineReload/></h5></NavLink></Nav.Link>
