@@ -35,7 +35,7 @@ export default function Header()
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto ">
                     <div id="searchId">
-                    <Nav.Link   href="#"><NavLink   className="navItem"  to="/search" activeClassName="setItem" onMouseEnter={()=>{showTip("q")}}  onMouseLeave={()=>{hideTip("q")}}>Search & Query</NavLink></Nav.Link>
+                    <Nav.Link   href="#"><NavLink   className="navItem"  to="/search" activeClassName="setItem" onMouseEnter={()=>{showTip("q")}}  onMouseLeave={()=>{hideTip("q")}}>📝Data</NavLink></Nav.Link>
                    {
                     showQ &&
 
@@ -50,7 +50,7 @@ export default function Header()
                     }           
                     </div>
                     <div id="chartId">
-                    {/* <Nav.Link   href="#"><NavLink to="/chart" className="navItem" activeClassName="setItem" onMouseEnter={()=>{showTip("c")}}  onMouseLeave={()=>{hideTip("c")}}>Visualize</NavLink></Nav.Link>
+                    <Nav.Link   href="#"><NavLink to="/chart" className="navItem" activeClassName="setItem" onMouseEnter={()=>{showTip("c")}}  onMouseLeave={()=>{hideTip("c")}}>📊Insights</NavLink></Nav.Link>
                     {
                         showC &&
                     
@@ -61,7 +61,7 @@ export default function Header()
                             <p>Create detailed visual reports with a couple of clicks</p>
                         </div>
                     </div> 
-                    } */}
+                    }
                     </div>                                 
                     </Nav>
                     <Nav>
