@@ -70,3 +70,12 @@
     top:0rem;
     left: 13rem;
 }
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.searchBox{
+ border-radius: 10px !important;
+ width: 18rem !important;
+}

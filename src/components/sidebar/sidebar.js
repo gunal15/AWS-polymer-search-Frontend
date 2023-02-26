@@ -129,6 +129,13 @@ export default function Sidebar()
                 <p className="mx-2 mt-4"><h4><FaTag/></h4></p>
                 <p className="mx-2 tag">Query Tags</p>
             </div> */}
+            <div className="searchContainer">
+                <div>
+                    <form>
+                        <input  className="searchBox form-control" placeholder="search..." onChange={handleSearch} value={search}/>
+                    </form>
+                </div>
+            </div>
             <div className="sideScroll">
                 <div className="scrollHeader d-flex">
                     <div><img src={alpha} alt="alpha"/> </div>
