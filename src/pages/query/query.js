@@ -76,7 +76,7 @@ export default function Query()
         </Container>
         <div className="tagBar">
             <div className="ms-5 mt-2">
-                <p >TAGS :
+                <p className="ptag">TAGS :
                     {
                     tags.map((a)=>{
                         return <div className="tagBarItem text-muted">{a}</div>

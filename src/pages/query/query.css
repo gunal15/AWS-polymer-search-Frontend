@@ -25,9 +25,6 @@
 }
 .tagBarItem{
     display: inline;
-    font-family: monospace;
-    font-weight: bold;
-    color: rgb(245, 240, 212);
     background-color: rgb(175, 247, 175);
     margin-left: 0.4rem;
     padding: 3px;
@@ -53,7 +50,12 @@
     
 }
 .clearbutton{
-    align-items: end;
+    align-content: flex-end;
+}
+.ptag{
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(245, 240, 212);
 }
 
 
