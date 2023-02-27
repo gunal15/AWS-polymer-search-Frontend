@@ -57,7 +57,7 @@
 }
 
 .clearbutton {
-    size: 80%;
+    padding: 0.25rem 0.5rem;
     position: absolute; 
     right: 50px; 
   }
