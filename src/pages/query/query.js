@@ -81,9 +81,9 @@ export default function Query()
                     tags.map((a)=>{
                         return <div className="tagBarItem text-muted">{a}</div>
                     })
-                    }
-                   <Button className="clearbutton"><a href="https://eclectic-haupia-0bab18.netlify.app/">Clear</a></Button>
+                    }  
                 </p>
+                <Button className="clearbutton"><a href="https://eclectic-haupia-0bab18.netlify.app/">Clear</a></Button>
             </div>
         </div>
         <div className="countBar">
