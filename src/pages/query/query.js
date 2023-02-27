@@ -1,11 +1,12 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import {  Container } from "react-bootstrap";
+import {  Button, Container } from "react-bootstrap";
 import { useContext,useState,useEffect } from "react";
 import { DataContext } from "../../context/context";
 import "./query.css"
 import { FcSearch } from "react-icons/fc";
 import { AiFillThunderbolt } from "react-icons/ai";
 import DisplayCard from "../../components/card/card";
+import { Link } from "react-router-dom";
 
 export default function Query()
 {
@@ -79,6 +80,7 @@ export default function Query()
                         return <div className="tagBarItem text-muted">{a}</div>
                     })
                     }
+                    <Button className="clearbutton"><Link to={"https://eclectic-haupia-0bab18.netlify.app/search"}>Clear</Link></Button>
                 </p>
             </div>
         </div>
