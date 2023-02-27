@@ -14,6 +14,8 @@ export default function Query()
     const [filterData,setFilterData] =useState([])
     const [search,setSearch]=useState()
     const [tags,setTags]=useState([])
+ //   const [filterApplied, setFilterApplied] = useState(false);
+
 
   
 
@@ -77,10 +79,10 @@ export default function Query()
                 <p >TAGS :
                     {
                     tags.map((a)=>{
-                        return <div className="tagBarItem text-muted">{a}</div>
+                        return <div className="tagBarItem text-muted">{a}  <Button className="clearbutton"><a href="https://eclectic-haupia-0bab18.netlify.app/">Clear</a></Button></div>
                     })
                     }
-                    <Button className="clearbutton"><a href="https://eclectic-haupia-0bab18.netlify.app/">Clear</a></Button>
+                   
                 </p>
             </div>
         </div>
