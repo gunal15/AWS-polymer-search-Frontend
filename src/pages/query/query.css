@@ -49,9 +49,6 @@
     justify-content: center;
     
 }
-.clearbutton{
-    align-content: flex-end !important; 
-}
 .ptag{
     font-family: monospace;
     font-weight: bold;
