@@ -18,6 +18,7 @@
     background-color: rgb(78, 59, 59);
     margin-bottom: 1rem;
     display: flex;
+    position: relative; /* add this */
     align-items: center;
     border-radius: 8px;
     box-shadow: 0px 2px #888888;
@@ -54,6 +55,11 @@
     font-weight: bold;
     color: rgb(245, 240, 212);
 }
+
+.clearbutton {
+    position: absolute; /* add this */
+    right: 10px; /* adjust the right value to position the button as per your requirement */
+  }
 
 
 
