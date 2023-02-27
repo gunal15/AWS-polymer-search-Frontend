@@ -50,7 +50,7 @@
     
 }
 .clearbutton{
-    align-content: flex-end;
+    align-content: flex-end !important; 
 }
 .ptag{
     font-family: monospace;
