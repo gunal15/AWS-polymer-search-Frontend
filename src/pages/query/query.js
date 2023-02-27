@@ -79,10 +79,10 @@ export default function Query()
                 <p >TAGS :
                     {
                     tags.map((a)=>{
-                        return <div className="tagBarItem text-muted">{a}  <Button className="clearbutton"><a href="https://eclectic-haupia-0bab18.netlify.app/">Clear</a></Button></div>
+                        return <div className="tagBarItem text-muted">{a}</div>
                     })
                     }
-                   
+                   <Button className="clearbutton"><a href="https://eclectic-haupia-0bab18.netlify.app/">Clear</a></Button>
                 </p>
             </div>
         </div>
