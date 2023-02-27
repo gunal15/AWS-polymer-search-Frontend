@@ -80,7 +80,7 @@ export default function Query()
                         return <div className="tagBarItem text-muted">{a}</div>
                     })
                     }
-                    <Button className="clearbutton"><Link to={"https://eclectic-haupia-0bab18.netlify.app/search"}>Clear</Link></Button>
+                    <Button className="clearbutton"><a href="https://eclectic-haupia-0bab18.netlify.app/">Clear</a></Button>
                 </p>
             </div>
         </div>
