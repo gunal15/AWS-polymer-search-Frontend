@@ -62,7 +62,6 @@ export default function Query()
     return(
         <>
         <div className="outerContainer">
-        <Container className=" bg-muted d-flex flex-column align-items-center ">
         <div className="tagBar">
             <div className="ms-5 mt-2">
                 <p className="ptag">TAGS :
@@ -75,6 +74,7 @@ export default function Query()
                 </p>
             </div>
         </div>
+        <Container className=" bg-muted d-flex flex-column align-items-center ">
             {/* <div className="mainHeader "><h4><b><FcSearch/>The Best Way to Browse Quality AWS GitHub Repositories<FcSearch/></b></h4></div>
             <div><p><AiFillThunderbolt style={{color:"yellow"}}/>Built with a spreadsheet + <a  href="https://www.polymersearch.com/?utm_source=built_with_polymer_aws" target="_blank" rel="noreferrer"   >Polymer Search</a>|<a href="https://app.polymersearch.com/auth/login" target="_blank" rel="noreferrer"> Create a search and data app in seconds with Polymer beta</a></p></div> */}
             <p style={{textAlign:"center",fontFamily:"Consolas",fontWeight:"bolder",color:"black",fontSize:"30px", marginTop:"20px", marginBottom:"20px"}}>aws_browser.csv</p>
