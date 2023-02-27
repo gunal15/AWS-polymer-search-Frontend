@@ -57,8 +57,9 @@
 }
 
 .clearbutton {
-    position: absolute; /* add this */
-    right: 10px; /* adjust the right value to position the button as per your requirement */
+    size: 80%;
+    position: absolute; 
+    right: 50px; 
   }
 
 
