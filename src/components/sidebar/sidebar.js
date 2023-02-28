@@ -136,21 +136,17 @@ export default function Sidebar()
                     <div><img src={alpha} alt="alpha"/> </div>
                     <div>CATEGORIES</div>
                 </div>
-                <div className="scrollList mb-2" style={{ backgroundColor: "#f5f5f5", borderRadius: "10px", padding: "10px" }}>
-    <div className="list d-flex" onClick={() => { handleStyle("language") }}>
-        <div className={active === "language" && `listNameActive`}></div>
-        <div className="listName">Language</div>
-
-        <div className={`listNumber ${active === "language" ? "listNumberActive" : ""}`}>
-            {Object.keys(tags.language).length}
-        </div>
-        <div><h6> {active === "language" ? <AiOutlineMinus /> : <AiOutlinePlus />}</h6></div>
-    </div>
-    {active === "language" &&
-        <ListTags tagName="language" tags={tags.language} />
-    }
-</div>
-
+                <div className="scrollList mb-2 ">
+                    <div className="list d-flex " onClick={()=>{handleStyle("language")}}>
+                        <div className={active==="language"&&`listNameActive`}></div>
+                        <div className="listName">Language</div>
+                        
+                        <div className={`listNumber ${active ==="language"?"listNumberActive":"" } `}>{Object.keys(tags.language).length}</div>
+                        <div><h6> {active === "language"?<AiOutlineMinus/>:<AiOutlinePlus/>}</h6></div>
+                    </div>
+                    { active === "language"&&
+                     <ListTags tagName="language" tags={tags.language}/> }                   
+                </div>
 
                 <div className="scrollList mb-2">
                     <div className="list d-flex " onClick={()=>{handleStyle("topics")}}>
