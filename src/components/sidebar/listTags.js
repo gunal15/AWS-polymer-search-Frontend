@@ -3,6 +3,7 @@ import "./listTags.css";
 import { useState,useContext,useEffect} from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { DataContext } from "../../context/context";
+import"bootstrap";
 export default function ListTags(props)
 {  
     console.log("cc",props)
@@ -105,7 +106,7 @@ export default function ListTags(props)
             <div className="tagSearch">
                 <form className="inline">
                     <label htmlFor="name"><AiOutlineSearch/></label>
-                    <input type="text" id="name" name="name" placeholder="Search" onChange={handleSearch} />
+                    <input className="DocSearch-SearchBar" type="text" id="name" name="name" placeholder="Search" onChange={handleSearch} />
                 </form>
             </div>
             <div className="tagBox">
