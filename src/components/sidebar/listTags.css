@@ -15,8 +15,7 @@
 }
 .tagSearch{
     padding: 5px;
-    border-radius: 3px;
-    background-color: rgb(21, 102, 253);
+    background-color: rgb(219, 216, 216);
 }
 #name{
     border:none;
@@ -48,4 +47,8 @@ label{
     margin-left: 0.5rem;
     font-size: 0.8rem;
     color: grey;
+}
+.inline{
+    border-radius: 3px;
+    color: #1a42f7;
 }
