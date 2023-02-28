@@ -7,6 +7,7 @@ import { AiOutlinePlus,AiOutlineMinus } from "react-icons/ai";
 import { useState,useContext, useEffect} from "react";
 import ListTags from "./listTags"
 import { DataContext } from "../../context/context";
+import "bootstrap";
 
 export default function Sidebar()
 {
@@ -124,7 +125,7 @@ export default function Sidebar()
 
     return(
         <>
-        <div className="sidebarContainer card border-left-primary shadow h-100 py-2 ">
+        <div className="sidebarContainer ">
             {/* <div className="sideFixed">
                 <p className="mx-2 mt-4"><h4><FaTag/></h4></p>
                 <p className="mx-2 tag">Query Tags</p>
@@ -135,7 +136,7 @@ export default function Sidebar()
                     <div><img src={alpha} alt="alpha"/> </div>
                     <div>CATEGORIES</div>
                 </div>
-                <div className="scrollList mb-2">
+                <div className="scrollList mb-2 card border-left-primary">
                     <div className="list d-flex " onClick={()=>{handleStyle("language")}}>
                         <div className={active==="language"&&`listNameActive`}></div>
                         <div className="listName">Language</div>
