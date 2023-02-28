@@ -30,7 +30,7 @@ const Div=styled.div`
     return(
         <>
         
-        <Div className=" card col-xl-4 col-lg-4 "onClick={()=>{setShow(true)}}>
+        <Div className=" card col-lg-4 mb-4  "onClick={()=>{setShow(true)}}>
         <div><h5><a href={`${data.html_url}`} target="_blank" rel="noreferrer"> {data.name}</a></h5></div>
         <div><h6>  <span style={{fontSize:"0.8rem" , fontWeight:"400"}}> {data.description}</span></h6></div>
         <div className="shareCopy">
