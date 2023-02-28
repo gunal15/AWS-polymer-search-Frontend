@@ -54,10 +54,10 @@
 }
 .listNameActive{
     width: 0.5rem;
-    background-color: hotpink;
+    background-color: rgb(253, 39, 39);
 }
 .listNumberActive{
-    background-color: hotpink;
+    background-color: rgb(243, 32, 32);
 }
 .scrollList{
     position: relative;
