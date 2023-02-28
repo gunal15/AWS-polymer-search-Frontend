@@ -11,8 +11,7 @@
     width: 100%;
     height: 0.4rem;
     background-color: #0029e6;
-    background-image: linear-gradient(to right, #9b31f3, #a141f2, #a64ff0, #ab5cef, #b068ed, #a177f1, #9583f3, #8b8ef2, #729bef, #65a4e6, #68aad9, #77afcb);
-    
+    background-image: linear-gradient(to right, #e82f2f, #e95334, #ea6d3d, #ea844a, #ea985b, #ec9563, #ee936a, #ee9172, #eb7978, #e06385, #cb5496, #a94da7);
 }
 .tagSearch{
     padding: 5px;
@@ -32,7 +31,7 @@ label{
 }
 .tagItem{
     display: inline-block;
-    background-color: rgb(202, 233, 243);
+    background-color: rgb(251, 179, 234);
     border-radius: 3px;
     margin-right: 4px;
     margin-bottom: 4px;
