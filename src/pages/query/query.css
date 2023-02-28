@@ -15,7 +15,7 @@
 }
 .tagBar{
     height: 2.5rem;
-    background-color: rgb(78, 59, 59);
+    background-color: rgb(164, 199, 228);
     margin-bottom: 1rem;
     display: flex;
     position: relative; /* add this */
