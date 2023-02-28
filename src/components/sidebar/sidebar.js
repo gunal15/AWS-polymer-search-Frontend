@@ -130,7 +130,7 @@ export default function Sidebar()
                 <p className="mx-2 tag">Query Tags</p>
             </div> */}
             
-            <div className="card-body rounded flex-nowrap px-2 py-1 form-inline sidebar-data-group segment-cherry-border-left-100-0-0-1833 bg-white">
+            <div className="sideScroll ">
                 <div className="scrollHeader d-flex">
                     <div><img src={alpha} alt="alpha"/> </div>
                     <div>CATEGORIES</div>
