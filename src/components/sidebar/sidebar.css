@@ -47,13 +47,13 @@
     margin-left: 2rem;
     width: 7rem;
 }
-.listNumber{
+/* .listNumber{
     padding: 2.5px;
     background-color:rgb(255, 255, 255)  ;
     border-radius: 5px;
     margin-left: 40px;
     margin-right: 10px;
-}
+} */
 .listNameActive{
     width: 0.5rem;
     background-color: rgb(253, 39, 39);
