@@ -136,6 +136,19 @@ export default function Sidebar()
                     <div><img src={alpha} alt="alpha"/> </div>
                     <div>CATEGORIES</div>
                 </div>
+
+                <div className="scrollList mb-2">
+                    <div className="list d-flex " onClick={()=>{handleStyle("topics")}}>
+                        <div className={active==="topics"&&`listNameActive`}></div>
+                        <div className="listName">Topic</div>
+                        
+                        <div className={`listNumber ${active ==="topics"?"listNumberActive":"" } `}>{Object.keys(tags.topics).length}</div>
+                        <div><h6> {active === "topics"?<AiOutlineMinus/>:<AiOutlinePlus/>}</h6></div>
+                    </div>
+                    { active === "topics"&&
+                     <ListTags tagName="topics" tags={tags.topics}/> }                   
+                </div>
+
                 <div className="scrollList mb-2 ">
                     <div className="list d-flex " onClick={()=>{handleStyle("language")}}>
                         <div className={active==="language"&&`listNameActive`}></div>
@@ -148,18 +161,7 @@ export default function Sidebar()
                      <ListTags tagName="language" tags={tags.language}/> }                   
                 </div>
 
-                <div className="scrollList mb-2">
-                    <div className="list d-flex " onClick={()=>{handleStyle("topics")}}>
-                        <div className={active==="topics"&&`listNameActive`}></div>
-                        <div className="listName">Topics</div>
-                        
-                        <div className={`listNumber ${active ==="topics"?"listNumberActive":"" } `}>{Object.keys(tags.topics).length}</div>
-                        <div><h6> {active === "topics"?<AiOutlineMinus/>:<AiOutlinePlus/>}</h6></div>
-                    </div>
-                    { active === "topics"&&
-                     <ListTags tagName="topics" tags={tags.topics}/> }                   
-                </div>
-
+            
                 <div className="scrollList mb-2">
                     <div className="list d-flex " onClick={()=>{handleStyle("license")}}>
                         <div className={active==="license"&&`listNameActive`}></div>
@@ -178,18 +180,6 @@ export default function Sidebar()
                 </div>
                 
                 <div className="scrollList mb-2">
-                    <div className="list d-flex " onClick={()=>{handleStyle("stars")}}>
-                        <div className={active==="stars"&&`listNameActive`}></div>
-                        <div className="listName">Stars</div>
-                        
-                        <div className={`listNumber ${active ==="stars"?"listNumberActive":"" } `}>{Object.keys(tags.stargazers_count).length}</div>
-                        <div><h6> {active === "stars"?<AiOutlineMinus/>:<AiOutlinePlus/>}</h6></div>
-                    </div>
-                    { active === "stars"&&
-                     <ListTags tagName="stargazers_count" tags={tags.stargazers_count}/> }                   
-                </div>
-
-                <div className="scrollList mb-2">
                     <div className="list d-flex " onClick={()=>{handleStyle("forks")}}>
                         <div className={active==="forks"&&`listNameActive`}></div>
                         <div className="listName">Forks</div>
@@ -202,15 +192,15 @@ export default function Sidebar()
                 </div>
 
                 <div className="scrollList mb-2">
-                    <div className="list d-flex " onClick={()=>{handleStyle("watchers")}}>
-                        <div className={active==="watchers"&&`listNameActive`}></div>
-                        <div className="listName">Watchers</div>
+                    <div className="list d-flex " onClick={()=>{handleStyle("stars")}}>
+                        <div className={active==="stars"&&`listNameActive`}></div>
+                        <div className="listName">Stars</div>
                         
-                        <div className={`listNumber ${active ==="watchers"?"listNumberActive":"" } `}>{Object.keys(tags.watchers_count).length}</div>
-                        <div><h6> {active === "watchers"?<AiOutlineMinus/>:<AiOutlinePlus/>}</h6></div>
+                        <div className={`listNumber ${active ==="stars"?"listNumberActive":"" } `}>{Object.keys(tags.stargazers_count).length}</div>
+                        <div><h6> {active === "stars"?<AiOutlineMinus/>:<AiOutlinePlus/>}</h6></div>
                     </div>
-                    { active === "watchers"&&
-                     <ListTags tagName="watchers_count" tags={tags.watchers_count}/> }                   
+                    { active === "stars"&&
+                     <ListTags tagName="stargazers_count" tags={tags.stargazers_count}/> }                   
                 </div>
 
                 <div className="scrollList mb-2">
@@ -224,6 +214,22 @@ export default function Sidebar()
                     { active === "issues"&&
                      <ListTags tagName="open_issues_count" tags={tags.open_issues_count}/> }                   
                 </div>
+
+               
+
+                <div className="scrollList mb-2">
+                    <div className="list d-flex " onClick={()=>{handleStyle("watchers")}}>
+                        <div className={active==="watchers"&&`listNameActive`}></div>
+                        <div className="listName">Watchers</div>
+                        
+                        <div className={`listNumber ${active ==="watchers"?"listNumberActive":"" } `}>{Object.keys(tags.watchers_count).length}</div>
+                        <div><h6> {active === "watchers"?<AiOutlineMinus/>:<AiOutlinePlus/>}</h6></div>
+                    </div>
+                    { active === "watchers"&&
+                     <ListTags tagName="watchers_count" tags={tags.watchers_count}/> }                   
+                </div>
+
+                
 
 
                 <div className="scrollHeader d-flex">
