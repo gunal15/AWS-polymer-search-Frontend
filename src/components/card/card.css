@@ -1,3 +1,13 @@
+h5{
+    font-family: 'Bahnschrift SemiBold';
+    font-weight: bold;
+    text-shadow: 0 0 3px #FF0000;
+}
+h6{
+    font-family: 'Baskerville';
+    font-weight: bold;
+
+}
 .card{
     background-color: white;
     padding: 0.7rem;
@@ -10,7 +20,7 @@
 
 }
 .shareCopy{
-    color: grey !important;
+    color: rgb(12, 65, 255) !important;
     font-size: 1.8rem !important;
 }
 .alertBox{
