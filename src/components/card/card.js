@@ -176,7 +176,7 @@ const Div=styled.div`
          
             <div className="d-flex flex-column" >
                 <div><h6 style={{fontSize:"1rem"}} >Last Updated</h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightpink" ,borderRadius:"5px"}} > {`${date}`} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"palevioletred" ,borderRadius:"5px"}} > {`${date}`} </h6></div>
             </div>
             
             <div className="d-flex flex-column" >
