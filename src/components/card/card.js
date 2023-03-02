@@ -31,7 +31,7 @@ const Div=styled.div`
         <>
         
         <Div className=" card col-xl-4 col-lg-4 "onClick={()=>{setShow(true)}}>
-        <div><h5><a href={`${data.html_url}`} target="_blank" rel="noreferrer"> {data.name}</a></h5></div>
+        <div><h5 className="htags"><a href={`${data.html_url}`} target="_blank" rel="noreferrer"> {data.name}</a></h5></div>
         <div><h6 className="htag">  <span style={{fontSize:"0.8rem" , fontWeight:"400"}}> {data.description}</span></h6></div>
         <div className="shareCopy">
             <a className="shareCopy border-light text-decoration-none" href={`${data.html_url}`} target="_blank" rel="noreferrer" >GitHub <AiFillGithub/></a>
