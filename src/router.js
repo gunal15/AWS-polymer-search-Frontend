@@ -6,8 +6,8 @@ import DismissHeader from './components/dismissHeader/dismissHeader';
 import Sidebar from './components/sidebar/sidebar';
 import { useContext } from "react";
 import { DataContext } from "./context/context";
-import LoadingIcons from "react-loading-icons";
-import { Grid } from 'react-loading-icons'
+import { AiOutlineReload } from "react-icons/ai";
+
 export default function Router()
 {
     const {loading,error}=useContext(DataContext)
@@ -16,7 +16,7 @@ export default function Router()
       <DismissHeader/>
       <Header/>
       {
-          loading?<p> <Grid style={{color:"red",stroke:"red",}}/>loading...</p>:error?<p>something went wrong</p>:(
+          loading?<p> <AiOutlineReload></AiOutlineReload> loading...</p>:error?<p>something went wrong</p>:(
       <div className="d-flex">
       <Sidebar/>
       <Switch>
