@@ -6,6 +6,7 @@ import DismissHeader from './components/dismissHeader/dismissHeader';
 import Sidebar from './components/sidebar/sidebar';
 import { useContext } from "react";
 import { DataContext } from "./context/context";
+import LoadingIcons from "react-loading-icons";
 export default function Router()
 {
     const {loading,error}=useContext(DataContext)
@@ -14,7 +15,7 @@ export default function Router()
       <DismissHeader/>
       <Header/>
       {
-          loading?<p>loading...</p>:error?<p>something went wrong</p>:(
+          loading?<p> <Grid />loading...</p>:error?<p>something went wrong</p>:(
       <div className="d-flex">
       <Sidebar/>
       <Switch>
