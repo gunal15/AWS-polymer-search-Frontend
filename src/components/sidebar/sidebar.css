@@ -37,7 +37,7 @@
     padding: 0.3rem;
     background-image: linear-gradient(to right, #ff7474, #ff8988, #ff9d9c, #ffb0b0, #ffc3c3, #ffced2, #ffd9df, #fee5eb, #fcecf4, #fbf3fa, #fcf9fd, #ffffff);
     border:1px solid rgb(86, 87, 94);
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 0.8rem;
     margin-left:10px;
     gap:0.3rem

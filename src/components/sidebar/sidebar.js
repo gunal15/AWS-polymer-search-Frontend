@@ -242,7 +242,7 @@ export default function Sidebar()
                         <div className={active==="wiki"&&`listNameActive`}></div>
                         <div className="listName">Has Wiki</div>
                         
-                        <div className={`wiki ${active ==="wiki"?"listNumberActive":"" } `}>{Object.keys(tags.has_wiki).length}</div>
+                        <div className={`listNumber ${active ==="wiki"?"listNumberActive":"" } `}>{Object.keys(tags.has_wiki).length}</div>
                         <div><h6> {active === "wiki"?<AiOutlineMinus/>:<AiOutlinePlus/>}</h6></div>
                     </div>
                     { active === "wiki"&&
