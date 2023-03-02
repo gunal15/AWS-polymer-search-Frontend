@@ -16,7 +16,7 @@ export default function Router()
       <DismissHeader/>
       <Header/>
       {
-          loading?<p> <AiOutlineReload></AiOutlineReload> <iframe src="https://gifer.com/embed/YCZH" style={{width:"480",height:"270.145"}} ></iframe><p></p> loading...</p>:error?<p>Something went wrong😓</p>:(
+          loading?<p> <AiOutlineReload></AiOutlineReload>  loading...</p>:error?<p>Something went wrong😓</p>:(
       <div className="d-flex">
       <Sidebar/>
       <Switch>
