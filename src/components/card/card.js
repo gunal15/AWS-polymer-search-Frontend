@@ -102,15 +102,15 @@ const Div=styled.div`
         <div className="insideCard">
          <div className="d-flex flex-column gap-4" >
                 <div><h3 style={{fontSize:"1rem",}} >Stars </h3></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"lightblue",borderRadius:"5px"}} > {data.stargazers_count} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"lightcoral",borderRadius:"5px"}} > {data.stargazers_count} </h6></div>
          </div>
             <div className="d-flex flex-column" >
                 <div><h6 style={{fontSize:"1rem"}} >Watchers</h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightpink" ,borderRadius:"5px"}} > {data.watchers_count} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"yellowgreen" ,borderRadius:"5px"}} > {data.watchers_count} </h6></div>
             </div>
             <div className="d-flex flex-column" >
                 <div><h6 style={{fontSize:"1rem"}} >forks</h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightgreen" ,borderRadius:"5px"}} > {data.forks_count} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"palevioletred" ,borderRadius:"5px"}} > {data.forks_count} </h6></div>
             </div>
         </div>
         <hr/>
@@ -121,19 +121,19 @@ const Div=styled.div`
         <div className="insideCard">
          <div className="d-flex flex-column gap-4" >
                 <div><h3 style={{fontSize:"1rem",}} >Open Issues </h3></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"lightblue",borderRadius:"5px"}} > {data.open_issues} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"lightcoral",borderRadius:"5px"}} > {data.open_issues} </h6></div>
          </div>
             <div className="d-flex flex-column" >
                 <div><h6 style={{fontSize:"1rem"}} >Last Updated</h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightpink" ,borderRadius:"5px"}} > {`${date}`} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"yellowgreen" ,borderRadius:"5px"}} > {`${date}`} </h6></div>
             </div>
             <div className="d-flex flex-column" >
                 <div><h6 style={{fontSize:"1rem"}} >forks</h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightgreen" ,borderRadius:"5px"}} > {data.forks_count} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"palevioletred" ,borderRadius:"5px"}} > {data.forks_count} </h6></div>
             </div>
             <div className="d-flex flex-column" >
                 <div><h6 style={{fontSize:"1rem"}} >Created At</h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightpink" ,borderRadius:"5px"}} > {`${date1}`} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"yellowgreen" ,borderRadius:"5px"}} > {`${date1}`} </h6></div>
             </div>
         </div>
         <hr/>
@@ -144,19 +144,19 @@ const Div=styled.div`
         <div className="insideCard">
          <div className="d-flex flex-column gap-4" >
                 <div><h3 style={{fontSize:"1rem",}} >Has Wiki </h3></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"lightblue",borderRadius:"5px"}} > { data.has_wiki?"true":"false"} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"lightcoral",borderRadius:"5px"}} > { data.has_wiki?"true":"false"} </h6></div>
          </div>
             <div className="d-flex flex-column" >
                 <div><h6 style={{fontSize:"1rem"}} >Language</h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightpink" ,borderRadius:"5px"}} > {data.language} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"yellowgreen" ,borderRadius:"5px"}} > {data.language} </h6></div>
             </div>
             <div className="d-flex flex-column" >
                 <div><h6 style={{fontSize:"1rem"}} >Is Fork</h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightgreen" ,borderRadius:"5px"}} >{ data.fork?"true":"false"} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"palevioletred" ,borderRadius:"5px"}} >{ data.fork?"true":"false"} </h6></div>
             </div>
             <div className="d-flex flex-column gap-4" >
                 <div><h3 style={{fontSize:"1rem",}} >Owner Type </h3></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"lightblue",borderRadius:"5px"}} > { data.owner.type} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"lightcoral",borderRadius:"5px"}} > { data.owner.type} </h6></div>
          </div>
          <div className="d-flex flex-column gap-4" >
                 <div><h3 style={{fontSize:"1rem",}} >Topics </h3></div>
@@ -181,7 +181,7 @@ const Div=styled.div`
             
             <div className="d-flex flex-column" >
                 <div><h6 style={{fontSize:"1rem"}} >Created At</h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightpink" ,borderRadius:"5px"}} > {`${date1}`} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"yellowgreen" ,borderRadius:"5px"}} > {`${date1}`} </h6></div>
             </div>
         </div>
         </div>
