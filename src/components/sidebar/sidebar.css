@@ -63,6 +63,7 @@
 }
 .scrollList{
     position: relative;
+    cursor: pointer;
 }
 .scrollListTags
 {
