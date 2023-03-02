@@ -16,7 +16,7 @@ export default function Router()
       <DismissHeader/>
       <Header/>
       {
-          loading?<p> <Grid style={{color:"red"}}/>loading...</p>:error?<p>something went wrong</p>:(
+          loading?<p> <Grid style={{color:"red",stroke:"red",}}/>loading...</p>:error?<p>something went wrong</p>:(
       <div className="d-flex">
       <Sidebar/>
       <Switch>
