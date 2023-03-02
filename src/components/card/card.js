@@ -48,26 +48,26 @@ const Div=styled.div`
         <div className="body1 d-flex flex-column"  >
             <div className="d-flex" >
                 <div><h6 style={{fontSize:"0.8rem",width:"6rem"}} ><b>Full Name </b></h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"lightblue",borderRadius:"5px"}} > {data.full_name} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"#FDFD35",borderRadius:"5px"}} > {data.full_name} </h6></div>
             </div>
             <div className="d-flex" >
                 <div><h6 style={{fontSize:"0.8rem",width:"6rem"}} ><b>Owner </b></h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightgreen" ,borderRadius:"5px"}} > {data.owner.login} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"#358DFD" ,borderRadius:"5px"}} > {data.owner.login} </h6></div>
             </div>
         </div>
         <hr/>
         <div className="insideCard1">
         <div className="d-flex flex-column " >
                 <div><h6 style={{fontSize:"0.8rem",}} >Stars </h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"lightblue",borderRadius:"5px"}} > {data.stargazers_count} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,backgroundColor:"#FD3596",borderRadius:"5px"}} > {data.stargazers_count} </h6></div>
             </div>
             <div className="d-flex flex-column" >
                 <div><h6 style={{fontSize:"0.8rem"}} >Language</h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightpink" ,borderRadius:"5px"}} > {data.language} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"#11B8FB" ,borderRadius:"5px"}} > {data.language} </h6></div>
             </div>
             <div className="d-flex flex-column" >
                 <div><h6 style={{fontSize:"0.8rem"}} >forks</h6></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"lightgreen" ,borderRadius:"5px"}} > {data.forks_count} </h6></div>
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"#FB1123 " ,borderRadius:"5px"}} > {data.forks_count} </h6></div>
             </div>
         </div>
      </Div>
