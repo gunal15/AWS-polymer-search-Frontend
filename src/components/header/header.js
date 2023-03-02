@@ -66,7 +66,7 @@ export default function Header()
                     </Nav>
                     <Nav>
                         {/* <Nav.Link href="#"><h5 className="bulbIcon"><AiFillBulb/></h5></Nav.Link> */}
-                        <Nav.Link href="#"><NavLink to="/query"><h5 className="reloadIcon"><AiOutlineReload/></h5></NavLink></Nav.Link>
+                       {/* <Nav.Link href="#"><NavLink to="/query"><h5 className="reloadIcon"><AiOutlineReload/></h5></NavLink></Nav.Link> */}
                         {/* <NavDropdown title="More sites" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="https://flixgem.com/?utm_source=aws" target="_blank">                                   
                                 <div className="d-flex gap-2 align-items-center">
