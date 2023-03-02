@@ -250,6 +250,8 @@ export default function Sidebar()
                     { active === "wiki"&&
                      <ListTags tagName="has_wiki" tags={tags.has_wiki}/> }                   
                 </div>
+
+                
                 <p id="datetime"></p>
             </div>
         </div>
