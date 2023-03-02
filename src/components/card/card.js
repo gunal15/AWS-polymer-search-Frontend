@@ -71,14 +71,13 @@ const Div=styled.div`
             </div>
         </div>
      </Div>
-     {/* <div className={` ${show ? "modal-90w":""}`}> */}
         <Modal 
      show={show}
      onHide={()=>{setShow(false)}}
        dialogClassName="modal-90w"
       aria-labelledby={data._id}
       className="custom-modal-style"
-    //  animation={false}>
+
     >
          <Modal.Header  className="text-center" closeButton ><Modal.Title id={data._id}>{data.name}</Modal.Title></Modal.Header>
          <Modal.Body>
@@ -189,7 +188,7 @@ const Div=styled.div`
         </div>
          </Modal.Body>
      </Modal>
-     {/* </div> */}
+ 
      </>
     )
 }
