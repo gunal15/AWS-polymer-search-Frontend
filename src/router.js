@@ -20,7 +20,7 @@ export default function Router()
       <DismissHeader/>
       <Header/>
       {
-          loading?<p> <AiOutlineReload style={{size}}></AiOutlineReload>  loading...</p>:error?<p>Something went wrong😓</p>:(
+          loading?<p> <AiOutlineReload></AiOutlineReload>  loading...</p>:error?<p>Something went wrong😓</p>:(
       <div className="d-flex">
       <Sidebar/>
       <Switch>
