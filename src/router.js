@@ -16,7 +16,7 @@ export default function Router()
       <DismissHeader/>
       <Header/>
       {
-          loading?<p> <AiOutlineReload></AiOutlineReload> <img src="./1480.gif"></img> loading...</p>:error?<p>Something went wrong😓</p>:(
+          loading?<p> <AiOutlineReload></AiOutlineReload> <img src="./1480.png"></img> loading...</p>:error?<p>Something went wrong😓</p>:(
       <div className="d-flex">
       <Sidebar/>
       <Switch>
