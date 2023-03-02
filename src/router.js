@@ -8,6 +8,10 @@ import { useContext } from "react";
 import { DataContext } from "./context/context";
 import { AiOutlineReload } from "react-icons/ai";
 
+
+
+
+
 export default function Router()
 {
     const {loading,error}=useContext(DataContext)
@@ -16,7 +20,7 @@ export default function Router()
       <DismissHeader/>
       <Header/>
       {
-          loading?<p> <AiOutlineReload></AiOutlineReload>  loading...</p>:error?<p>Something went wrong😓</p>:(
+          loading?<p> <AiOutlineReload style={{size}}></AiOutlineReload>  loading...</p>:error?<p>Something went wrong😓</p>:(
       <div className="d-flex">
       <Sidebar/>
       <Switch>
