@@ -15,11 +15,7 @@ export function DataProvider({ children }) {
   const [state, dispatch] = useReducer(Reducer, initialState);
   let [mainTags, setMainTags] = useState({});
   let [tags, setTags] = useState({});
-  // const [tags,setTags]=useState({
-  //   language:{},
-  //   topics:{},
-  //   license:{}
-  //  })
+ 
 
   const fetchData = async (selectTags) => {
     try {

@@ -3,10 +3,8 @@ import {  Button, Container } from "react-bootstrap";
 import { useContext,useState,useEffect } from "react";
 import { DataContext } from "../../context/context";
 import "./query.css"
-import { FcSearch } from "react-icons/fc";
-import { AiFillThunderbolt } from "react-icons/ai";
 import DisplayCard from "../../components/card/card";
-import { Link } from "react-router-dom";
+
 
 export default function Query()
 {
@@ -75,8 +73,7 @@ export default function Query()
             </div>
         </div>
         <Container className=" bg-muted d-flex flex-column align-items-center ">
-            {/* <div className="mainHeader "><h4><b><FcSearch/>The Best Way to Browse Quality AWS GitHub Repositories<FcSearch/></b></h4></div>
-            <div><p><AiFillThunderbolt style={{color:"yellow"}}/>Built with a spreadsheet + <a  href="https://www.polymersearch.com/?utm_source=built_with_polymer_aws" target="_blank" rel="noreferrer"   >Polymer Search</a>|<a href="https://app.polymersearch.com/auth/login" target="_blank" rel="noreferrer"> Create a search and data app in seconds with Polymer beta</a></p></div> */}
+            
             <p style={{textAlign:"center",fontFamily:"Consolas",fontWeight:"bolder",color:"black",fontSize:"30px", marginTop:"20px", marginBottom:"20px"}}>aws_browser.csv</p>
             <div className="searchContainer">
                 <div>

@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+
 import "./listTags.css";
 import { useState,useContext,useEffect} from "react";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -10,7 +10,7 @@ export default function ListTags(props)
     const {setTagMain,mainTags}=useContext(DataContext)
     const [tagObject,setTagObject]=useState({})
      
-    // eslint-disable-next-line no-unused-vars
+   
     const[search,setSearch]=useState("")
     let tags={...mainTags}
     console.log(mainTags,tags)

@@ -126,10 +126,7 @@ export default function Sidebar()
     return(
         <>
         <div className="sidebarContainer ">
-            {/* <div className="sideFixed">
-                <p className="mx-2 mt-4"><h4><FaTag/></h4></p>
-                <p className="mx-2 tag">Query Tags</p>
-            </div> */}
+          
             
             <div className="sideScroll ">
                 <div className="scrollHeader d-flex">

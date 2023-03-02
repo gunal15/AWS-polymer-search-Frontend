@@ -1,4 +1,4 @@
-/* eslint-disable react/jsx-pascal-case */
+
 import './header.css'
 import aws from "../../assets/aws.png";
 import query from "../../assets/querytip.PNG";
