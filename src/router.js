@@ -16,7 +16,7 @@ export default function Router()
       <DismissHeader/>
       <Header/>
       {
-          loading?<p> <AiOutlineReload></AiOutlineReload> <div class="tenor-gif-embed" data-postid="25328530" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/gg-gif-25328530">Gg Sticker</a>from <a href="https://tenor.com/search/gg-stickers">Gg Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> loading...</p>:error?<p>Something went wrong😓</p>:(
+          loading?<p> <AiOutlineReload></AiOutlineReload> <a href="https://media.tenor.com/6gHLhmwO87sAAAAi/gg.gif"></a> loading...</p>:error?<p>Something went wrong😓</p>:(
       <div className="d-flex">
       <Sidebar/>
       <Switch>
