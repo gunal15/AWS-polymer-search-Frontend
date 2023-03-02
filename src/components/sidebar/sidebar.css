@@ -35,8 +35,8 @@
 }
 .list{
     padding: 0.3rem;
-    background-image: linear-gradient(to right, #959ff7, #acb0f9, #c2c1fa, #d5d4fc, #e8e6fd, #f0eefe, #f8f7fe, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
-    border:1px solid rgb(0, 0, 0);
+    background-image: linear-gradient(to right, #ff7474, #ff8988, #ff9d9c, #ffb0b0, #ffc3c3, #ffced2, #ffd9df, #fee5eb, #fcecf4, #fbf3fa, #fcf9fd, #ffffff);
+    border:1px solid rgb(86, 87, 94);
     border-radius: 3px;
     font-size: 0.8rem;
     margin-left:10px;
@@ -49,7 +49,7 @@
 }
 .listNumber{
     padding: 2.5px;
-    background-color:coral  ;
+    background-color:rgb(255, 255, 255)  ;
     border-radius: 5px;
     margin-left: 40px;
     margin-right: 10px;
