@@ -2,3 +2,14 @@
      width: 65vw;
      height: 70vh;
 }  
+.mr-3{
+   font-family: fantasy;
+   font-weight: bold;
+   font-size: 20px;
+}
+.dropd{
+    width: 60px;
+}
+.options{
+    font-family:sans-serif;
+}

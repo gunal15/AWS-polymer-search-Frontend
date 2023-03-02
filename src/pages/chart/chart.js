@@ -89,15 +89,15 @@ chart(value)
         <div  className="d-flex flex-column align-items-center  w-100 mt-2 p-4">
             <div>
                 <label ><p className="mr-3">select axis</p></label>
-                <select name="data" value={value} onChange={(event)=>{handleChange(event)}}  >
-                <option value="">Select</option>
-                    <option value="language">Language</option>
+                <select className="dropd" name="data" value={value} onChange={(event)=>{handleChange(event)}}  >
+                <option className="options" value="">Select</option>
                     <option value="topics">Topics</option>
+                    <option value="language">Language</option> 
                     <option value="license">License</option>
-                    <option value="stargazers_count">Stars</option>
                     <option value="forks_count">Forks</option>
-                    <option value="watchers_count">Watchers</option>
+                    <option value="stargazers_count">Stars</option>
                     <option value="open_issues_count">Open Issues</option>
+                    <option value="watchers_count">Watchers</option> 
                     <option value="has_wiki">Has Wiki</option>
                 </select>
                 
