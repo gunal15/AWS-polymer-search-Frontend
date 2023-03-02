@@ -32,7 +32,7 @@ const Div=styled.div`
         
         <Div className=" card col-xl-4 col-lg-4 "onClick={()=>{setShow(true)}}>
         <div><h5><a href={`${data.html_url}`} target="_blank" rel="noreferrer"> {data.name}</a></h5></div>
-        <div><h6>  <span style={{fontSize:"0.8rem" , fontWeight:"400"}}> {data.description}</span></h6></div>
+        <div><h6 className="htag">  <span style={{fontSize:"0.8rem" , fontWeight:"400"}}> {data.description}</span></h6></div>
         <div className="shareCopy">
             <a className="shareCopy border-light text-decoration-none" href={`${data.html_url}`} target="_blank" rel="noreferrer" >GitHub <AiFillGithub/></a>
             <Button className="shareCopy border-light" variant="none"  onClick={()=>{copyClipboard(`${data.html_url}`)}}>Share <AiOutlineShareAlt/></Button>

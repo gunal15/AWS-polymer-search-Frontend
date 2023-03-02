@@ -35,7 +35,7 @@
 }
 .list{
     padding: 0.3rem;
-    background-image: linear-gradient(to right, #ff7474, #ff8988, #ff9d9c, #ffb0b0, #ffc3c3, #ffced2, #ffd9df, #fee5eb, #fcecf4, #fbf3fa, #fcf9fd, #ffffff);
+    background-image: linear-gradient(to right, #fbabab, #fdb7b7, #fec3c3, #ffcfcf, #ffdbdb, #ffe2e5, #fee9ed, #fef0f4, #fdf4f9, #fcf8fc, #fdfcfe, #ffffff);
     border:1px solid rgb(86, 87, 94);
     border-radius: 5px;
     cursor: pointer;
