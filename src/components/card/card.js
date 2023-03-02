@@ -160,7 +160,7 @@ const Div=styled.div`
          </div>
          <div className="d-flex flex-column gap-4" >
                 <div><h3 style={{fontSize:"1rem",}} >Topics </h3></div>
-                <div><h6 style={{padding:"3px",fontSize:"0.8rem" ,borderRadius:"5px"}} > { data.topics.map(a=>{
+                <div><h6 style={{padding:"3px",fontSize:"0.8rem",backgroundColor:"yellowgreen" ,borderRadius:"5px"}} > { data.topics.map(a=>{
                     return <p style={{display:"inline-block" ,marginRight:"5px"}}>{a}</p>
                 })} 
                 </h6>
