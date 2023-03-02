@@ -91,14 +91,14 @@ chart(value)
                 <label ><p className="mr-3">select axis</p></label>
                 <select className="dropd" name="data" value={value} onChange={(event)=>{handleChange(event)}}  >
                 <option className="options" value="">Select</option>
-                    <option value="topics">Topics</option>
-                    <option value="language">Language</option> 
-                    <option value="license">License</option>
-                    <option value="forks_count">Forks</option>
-                    <option value="stargazers_count">Stars</option>
-                    <option value="open_issues_count">Open Issues</option>
-                    <option value="watchers_count">Watchers</option> 
-                    <option value="has_wiki">Has Wiki</option>
+                    <option className="options" value="topics">Topics</option>
+                    <option className="options" value="language">Language</option> 
+                    <option className="options" value="license">License</option>
+                    <option className="options" value="forks_count">Forks</option>
+                    <option className="options" value="stargazers_count">Stars</option>
+                    <option className="options" value="open_issues_count">Open Issues</option>
+                    <option className="options" value="watchers_count">Watchers</option> 
+                    <option className="options" value="has_wiki">Has Wiki</option>
                 </select>
                 
             </div>
