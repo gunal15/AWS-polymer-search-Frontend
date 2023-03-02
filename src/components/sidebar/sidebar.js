@@ -60,7 +60,12 @@ export default function Sidebar()
 
     // console.log(data)
 
-    
+    function displayTime() {
+        var time = new Date();
+        var datetime = time.toLocaleString();
+        document.getElementById("datetime").innerHTML = datetime;
+      }
+      setInterval(displayTime, 1000);
 
     
     data.forEach((a)=>{
@@ -245,7 +250,7 @@ export default function Sidebar()
                     { active === "wiki"&&
                      <ListTags tagName="has_wiki" tags={tags.has_wiki}/> }                   
                 </div>
-
+                <p id="datetime"></p>
             </div>
         </div>
         </>
